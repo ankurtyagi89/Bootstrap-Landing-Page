@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.gap1 {
+    gap: 104px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 66px;
+}
+
+.content {
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.content h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.content p {
+    font-size: 24px;
+    color: #333333;
+}
+
+.content button {
+    width: 259px;
+    height: 66px;
+    border-radius: 40px;
+    background-color: #333333;
+    color: white;
+    font-size: 22px;
+    line-height: 18px;
+}
+
+.gap {
+    gap: 59px;
+}
+
+.img {
+    position: relative;
+}
+
+.rectange1 {
+    position: absolute;
+    top: -11px;
+    left: 3px;
+}
+
+.rectange2 {
+    position: absolute;
+    bottom: -2px;
+    left: 3px;
+}
+.rectange3 {
+    position: absolute;
+    right: 0px;
+    bottom: -2px;
+}
+.rectange4 {
+    position: absolute;
+    top: -11px;
+    right: 0px;
+}
+
+.Portal {
+    position: absolute;
+    left: 94px;
+    top: 21px;
+    /* color: #ffffff;
+    opacity: 80%; */
+}
+
+.Spiral {
+    position: absolute;
+    left: 99px;
+    top: 85px;
+}
+
+.Dawn {
+    position: absolute;
+    right: 111px;
+    bottom: 77px;
+}
+
+.Group {
+    position: absolute;
+    right: 63px;
+    bottom: -37px;
+}
+
+.icons {
+    position: absolute;
+    left: 279px;
+    top: 158px;
+}
+
+
+/* lower section */
+
+.gap2 {
+    gap: 25px;
+}
+
+.bg-1 {
+    background-color: #F1C2B0;
+}
+
+.Bg {
+    position: absolute;
+    left: 248px;
+    top: 17px;
+}
+
+/* @media (max-width: 1400px) {
+    .Bg {
+      display: none;
+    }
+  } */
+
+.bg-2 {
+    background-color: #F9EB98;
+}
+.bg-3 {
+    background-color: #C0D9DD;
+}
+.bg-4 {
+    background-color: #6975E8;
+}
+.family {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.box-size {
+    width: 309px;
+    height: 254px;
+    border-radius: 16px;
+    position: relative;
+}
